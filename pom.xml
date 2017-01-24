@@ -185,10 +185,10 @@
             </resource>
         </resources>
     </build> -->
- <!--  <build>
+  <build>
 		<finalName>mavendemo</finalName>
 		<plugins>
-			<plugin>
+			<!-- <plugin>
 				<groupId>org.apache.tomcat.maven</groupId>
 				<artifactId>tomcat7-maven-plugin</artifactId>
 				<version>2.2</version>
@@ -196,7 +196,7 @@
 					<httpPort>8081</httpPort>
 					<path>/</path>
 				</configuration>
-			</plugin>
+			</plugin> -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
@@ -206,5 +206,5 @@
 				</configuration>
 			</plugin>
 		</plugins>
-  </build> -->
+  </build>
 </project>
